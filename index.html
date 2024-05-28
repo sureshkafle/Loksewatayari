@@ -4,11 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Get started with a free and open-source admin dashboard layout built with Tailwind CSS and Flowbite featuring charts, widgets, CRUD layouts, authentication pages, and more">
-    <meta name="author" content="Themesberg">
-    <meta name="generator" content="Hugo 0.58.2">
-
     <title>Loksewa Tayari</title>
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -459,7 +454,7 @@
 
         <div class="fixed inset-0 z-10 hidden bg-gray-900/50 dark:bg-gray-900/90" id="sidebarBackdrop"></div>
 
-        <div id="main-content" class="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900">
+        <div id="main-content" class="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:text-gray-200 dark:hover:bg-gray-700 dark:bg-gray-900">
             <main>
                 <div class="title pt-3 mx-6">
                     <h1 class="text-wrap lg:text-2xl text-[#5eac1a] font-bold">
@@ -471,494 +466,665 @@
                 </div>
                 <div class="grid h-auto gap-3 mt-4 px-2 mb-4 md:grid-cols-2 xl:grid-cols-3">
                     <!-- Changed xl:grid-cols-4 to xl:grid-cols-3 -->
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
-                    <div class="card-styles">
-                        <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">General Aptitude</h2>
-                        <div class="card-contents">
-                            <ul>
-                                <li class="flex items-center text-gray-900 mb-2">  
-                                    <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                        <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M12 19L19 12L12 5"/>
-                                        </svg>
-                                        <span class="ml-2 text-xs md:text-base lg:text-lg">Arithmetic Aptitude</span>
-                                    </a>
-                                </li>
-                                <li class="flex items-center text-gray-900 mb-2">  
-                                    <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                        <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M12 19L19 12L12 5"/>
-                                        </svg>
-                                        <span class="ml-2 text-xs md:text-base lg:text-lg">Data Interpretation</span>
-                                    </a>
-                                </li>
-                                <li class="flex items-center text-gray-900 mb-2">  
-                                    <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                        <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M12 19L19 12L12 5"/>
-                                        </svg>
-                                        <span class="ml-2 text-xs md:text-base lg:text-lg">Online Aptitude Test</span>
-                                    </a>
-                                </li>
-                                <li class="flex items-center text-gray-900 mb-2">
-                                    <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                        <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M12 19L19 12L12 5"/>
-                                        </svg>
-                                        <span class="ml-2 text-xs md:text-base lg:text-lg">Data Interpretation Test</span>
-                                    </a>
-                                </li>                          
-                            </ul>                            
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800 "
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                        <div class="card-styles">
+                            <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">General Aptitude</h2>
+                            <div class="card-contents">
+                                <ul class="">
+                                    <li class="flex items-center dark:text-gray-200 text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Arithmetic
+                                                Aptitude</span>
+                                        </a>
+                                    </li>
+                                    <li class="flex items-center dark:text-gray-200 text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Data
+                                                Interpretation</span>
+                                        </a>
+                                    </li>
+                                    <li class="flex items-center dark:text-gray-200 text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Online Aptitude
+                                                Test</span>
+                                        </a>
+                                    </li>
+                                    <li class="flex items-center dark:text-gray-200 text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Data Interpretation
+                                                Test</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Verbal and Reasoning</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center dark:text-gray-200 text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Verbal Ability</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Logical Reasoning</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Verbal Reasoning</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Non Verbal Reasoning</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Non Verbal
+                                                Reasoning</span>
                                         </a>
                                     </li>
-                                                                  
-                                </ul>                            
+
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Current Affiars and GK</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Current Affiars</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Basic General Knowledge</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Basic General
+                                                Knowledge</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">General Science</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Read More...</span>
                                         </a>
                                     </li>
-                                                                  
-                                </ul>                            
+
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Interview</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Placement Papers</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Group Discussion</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">HR Interview</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Read more...</span>
                                         </a>
-                                    </li>                          
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
-                            <div class="card-styles">
-                                <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Engineering</h2>
-                                <div class="card-contents">
-                                    <ul>
-                                        <li class="flex items-center text-gray-900 mb-2">  
-                                            <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path d="M12 19L19 12L12 5"/>
-                                                </svg>
-                                                <span class="ml-2 text-xs md:text-base lg:text-lg">Mechanical Engineering</span>
-                                            </a>
-                                        </li>
-                                        <li class="flex items-center text-gray-900 mb-2">  
-                                            <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path d="M12 19L19 12L12 5"/>
-                                                </svg>
-                                                <span class="ml-2 text-xs md:text-base lg:text-lg">Civil Engineering</span>
-                                            </a>
-                                        </li>
-                                        <li class="flex items-center text-gray-900 mb-2">  
-                                            <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path d="M12 19L19 12L12 5"/>
-                                                </svg>
-                                                <span class="ml-2 text-xs md:text-base lg:text-lg">ECE, CSE, EEE</span>
-                                            </a>
-                                        </li>
-                                        <li class="flex items-center text-gray-900 mb-2">
-                                            <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path d="M12 19L19 12L12 5"/>
-                                                </svg>
-                                                <span class="ml-2 text-xs md:text-base lg:text-lg">Chemical Engineering</span>
-                                            </a>
-                                        </li>                          
-                                    </ul>                            
-                                </div>
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                        <div class="card-styles">
+                            <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Engineering</h2>
+                            <div class="card-contents">
+                                <ul>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Mechanical
+                                                Engineering</span>
+                                        </a>
+                                    </li>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Civil Engineering</span>
+                                        </a>
+                                    </li>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">ECE, CSE, EEE</span>
+                                        </a>
+                                    </li>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
+                                            </svg>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Chemical
+                                                Engineering</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
+                        </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Programming</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">C Programming</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">C++ Programming</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">C# Programming</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Java Programming</span>
                                         </a>
-                                    </li>                          
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Online Test</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Aptitude Test</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Verbal Ability Test</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Verbal Ability
+                                                Test</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Logical Reasoning Test</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Logical Reasoning
+                                                Test</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">C Programming Test</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Read more...</span>
                                         </a>
-                                    </li>                           
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Technical MCQs</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Networking Questions</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Networking
+                                                Questions</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Database Questions</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Basic Electronics</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Digital Electronics</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Digital
+                                                Electronics</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Read more...</span>
                                         </a>
-                                    </li>                             
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Technical Short Answers</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Software Testing</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">The C Language Basics</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">The C Language
+                                                Basics</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">SQL Server</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Networking</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Read more...</span>
                                         </a>
-                                    </li>                          
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Medical Science</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Microbiology</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Biochemistry</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Biotechnology</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Biochemical Engineering </span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Biochemical Engineering
+                                            </span>
                                         </a>
-                                    </li>                         
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+                    <div class="p-2 space-y-4 bg-white border border-gray-200 rounded-lg dark:border-gray-700 dark:bg-gray-800"
+                        style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
                         <div class="card-styles">
                             <h2 class="text-[#5eac1a] lg:text-xl font-bold mb-4">Puzzles</h2>
                             <div class="card-contents">
                                 <ul>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Sudoku</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Number puzzles</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">  
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
-                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Missing letters puzzles</span>
+                                            <span class="ml-2 text-xs md:text-base lg:text-lg">Missing letters
+                                                puzzles</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Logical puzzles</span>
                                         </a>
                                     </li>
-                                    <li class="flex items-center text-gray-900 mb-2">
-                                        <a href="" class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
-                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M12 19L19 12L12 5"/>
+                                    <li class="flex dark:text-gray-200 items-center text-gray-900 mb-2">
+                                        <a href=""
+                                            class="hover:underline flex items-center transition duration-500 hover:translate-x-1">
+                                            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19L19 12L12 5" />
                                             </svg>
                                             <span class="ml-2 text-xs md:text-base lg:text-lg">Clock puzzles</span>
                                         </a>
-                                    </li>                          
-                                </ul>                            
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </main>
-            <footer class=" bottom p-4 my-6 mx-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 xl:p-8 dark:bg-gray-800">
+            <footer
+                class=" bottom p-4 my-6 mx-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 xl:p-8 dark:bg-gray-800">
                 <ul class="flex flex-wrap items-center mb-6 space-y-1 md:mb-0">
                     <li><a href="#"
                             class="mr-4 text-sm font-normal text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Terms
@@ -1014,8 +1180,7 @@
                 </div>
             </footer>
             <p class="my-10 text-sm text-center text-gray-500">
-                &copy; 2024 <a href="#" class="hover:underline"
-                    target="_blank">Loksewatayari</a>. All rights reserved.
+                &copy; 2024 <a href="#" class="hover:underline" target="_blank">Loksewatayari</a>. All rights reserved.
             </p>
         </div>
     </div>
