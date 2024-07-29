@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for the icon */
+.topics-wrapper ul>div:before, .topics-wrapper ul li:before {
+    color: #febc29;
+    font-size: 1.5em;
+    margin-right: 0.1em;
+    font-family: "Material Design Icons" !important;
+    content: "📂";
+    text-decoration: none !important;
+}
+
+/* Ensure all elements respect box-sizing */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.correct {
+            color: green;
+        }
+
+        .incorrect {
+            color: red;
+        }
+
+        .icon {
+            margin-left: 8px;
+        }
