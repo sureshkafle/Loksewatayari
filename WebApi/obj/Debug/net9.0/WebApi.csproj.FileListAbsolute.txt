@@ -35,3 +35,5 @@
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/QuizCore.dll
+/Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/QuizCore.pdb
