@@ -15,6 +15,9 @@ public partial class ApplicationDbContext : IdentityDbContext<ApplicationUser, I
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
+        Categories = Set<Category>();
+        CategoryRelations= Set<CategoryRelation>();
+        Quizzes= Set<Quiz>();
     }
     private DbSet<Category> Categories { get; set; }
     private DbSet<CategoryRelation> CategoryRelations {get;set;}
