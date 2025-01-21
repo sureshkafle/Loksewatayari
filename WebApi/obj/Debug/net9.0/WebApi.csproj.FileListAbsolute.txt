@@ -140,3 +140,4 @@
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/FluentValidation.dll
