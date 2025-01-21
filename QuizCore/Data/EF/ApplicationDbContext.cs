@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using QuizCore.Data.Identities;
+using QuizCore.Modules.Categories.Entities;
+using QuizCore.Modules.Quizzes.Entities;
 
 namespace QuizCore.Data.EF;
 
@@ -13,8 +15,10 @@ public partial class ApplicationDbContext : IdentityDbContext<ApplicationUser, I
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
-        
     }
+    private DbSet<Category> Categories { get; set; }
+    private DbSet<CategoryRelation> CategoryRelations {get;set;}
+    private DbSet<Quiz> Quizzes {get; set;}
    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
