@@ -1,4 +1,4 @@
-
+using QuizCore.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddApplicationDbContextAndIdentity(builder.Configuration);
 
 var app = builder.Build();
 
