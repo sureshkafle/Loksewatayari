@@ -1,4 +1,3 @@
-/Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/appsettings.Development.json
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/appsettings.json
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/WebApi.staticwebassets.endpoints.json
 /Applications/Dotnet/Loksewatayari/WebApi/bin/Debug/net9.0/WebApi
