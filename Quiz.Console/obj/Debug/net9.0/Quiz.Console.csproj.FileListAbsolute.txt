@@ -1,0 +1,15 @@
+/Applications/Dotnet/Loksewatayari/Quiz.Console/bin/Debug/net9.0/Quiz.Console
+/Applications/Dotnet/Loksewatayari/Quiz.Console/bin/Debug/net9.0/Quiz.Console.deps.json
+/Applications/Dotnet/Loksewatayari/Quiz.Console/bin/Debug/net9.0/Quiz.Console.runtimeconfig.json
+/Applications/Dotnet/Loksewatayari/Quiz.Console/bin/Debug/net9.0/Quiz.Console.dll
+/Applications/Dotnet/Loksewatayari/Quiz.Console/bin/Debug/net9.0/Quiz.Console.pdb
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.AssemblyInfoInputs.cache
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.AssemblyInfo.cs
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.csproj.CoreCompileInputs.cache
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.sourcelink.json
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.dll
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/refint/Quiz.Console.dll
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.pdb
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/Quiz.Console.genruntimeconfig.cache
+/Applications/Dotnet/Loksewatayari/Quiz.Console/obj/Debug/net9.0/ref/Quiz.Console.dll

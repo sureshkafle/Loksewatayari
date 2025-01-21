@@ -10,3 +10,6 @@
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/refint/QuizCore.dll
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.pdb
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/ref/QuizCore.dll
+/Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.csproj.AssemblyReference.cache
+/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.runtimeconfig.json
+/Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.genruntimeconfig.cache
