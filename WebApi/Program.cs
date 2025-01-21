@@ -1,4 +1,5 @@
 using QuizCore.Data;
+using QuizCore.Modules.UserModule;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationDbContextAndIdentity(builder.Configuration);
+builder.Services.AddKpoUserConfigurations();
 
 var app = builder.Build();
 
