@@ -1,9 +1,11 @@
+using QuizCore.Data.EF;
+using QuizCore.Data.Identities;
+using QuizCore.Modules.UserModule.Identities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using QuizCore.Data.EF;
-using QuizCore.Data.Identities;
 
 namespace QuizCore.Data;
 public static class ApplicationExtensions
@@ -65,9 +67,10 @@ public static class ApplicationExtensions
     {
         services.AddDbContextPool<ApplicationDbContext>(option =>
         {
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
             option.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();                 
-        }).AddIdentityCore<ApplicationUser>(options =>
+        })
+        .AddIdentityCore<ApplicationUser>(options =>
         {
             options.Password.RequiredLength = 6;
             options.Password.RequireLowercase = false;
@@ -75,7 +78,8 @@ public static class ApplicationExtensions
             options.Password.RequireNonAlphanumeric = false;
             options.Password.RequireDigit = false;
             options.Lockout.AllowedForNewUsers = false;
-        });
+        }).AddRoles<IdentityRole<Guid>>()
+        .AddEntityFrameworkStores<ApplicationDbContext>();
         return services;
     }
 

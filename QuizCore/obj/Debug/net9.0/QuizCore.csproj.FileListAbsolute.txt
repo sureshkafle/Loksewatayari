@@ -1,13 +1,13 @@
+/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.deps.json
+/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.runtimeconfig.json
+/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.dll
+/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.pdb
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.csproj.AssemblyReference.cache
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.GeneratedMSBuildEditorConfig.editorconfig
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.AssemblyInfoInputs.cache
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.AssemblyInfo.cs
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.csproj.CoreCompileInputs.cache
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.sourcelink.json
-/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.deps.json
-/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.runtimeconfig.json
-/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.dll
-/Applications/Dotnet/Loksewatayari/QuizCore/bin/Debug/net9.0/QuizCore.pdb
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.dll
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/refint/QuizCore.dll
 /Applications/Dotnet/Loksewatayari/QuizCore/obj/Debug/net9.0/QuizCore.pdb
