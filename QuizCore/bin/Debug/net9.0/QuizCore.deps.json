@@ -14,7 +14,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.Design": "9.0.1",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.3"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.3",
+          "System.IdentityModel.Tokens.Jwt": "8.3.1"
         },
         "runtime": {
           "QuizCore.dll": {}
@@ -593,6 +594,48 @@
           }
         }
       },
+      "Microsoft.IdentityModel.Abstractions/8.3.1": {
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.3.1.0",
+            "fileVersion": "8.3.1.60117"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.3.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.3.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.3.1.0",
+            "fileVersion": "8.3.1.60117"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.3.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.3.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.3.1.0",
+            "fileVersion": "8.3.1.60117"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
+          "Microsoft.IdentityModel.Logging": "8.3.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.3.1.0",
+            "fileVersion": "8.3.1.60117"
+          }
+        }
+      },
       "Mono.TextTemplating/3.0.0": {
         "dependencies": {
           "System.CodeDom": "6.0.0"
@@ -694,6 +737,18 @@
           "lib/net7.0/System.Composition.TypedParts.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/8.3.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.3.1",
+          "Microsoft.IdentityModel.Tokens": "8.3.1"
+        },
+        "runtime": {
+          "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "8.3.1.0",
+            "fileVersion": "8.3.1.60117"
           }
         }
       },
@@ -960,6 +1015,34 @@
       "path": "microsoft.extensions.primitives/9.0.1",
       "hashPath": "microsoft.extensions.primitives.9.0.1.nupkg.sha512"
     },
+    "Microsoft.IdentityModel.Abstractions/8.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oXYKRcTS0DTIB5vZenGy9oceD8awhjnXFFabc/IWBwluMA03SGvazCFyUIQ2mJOIOSf9lLyM971nbTj9qZgEJg==",
+      "path": "microsoft.identitymodel.abstractions/8.3.1",
+      "hashPath": "microsoft.identitymodel.abstractions.8.3.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cA622rrXYdaO7inNZ8KY5leZpP6889wT+gHPgvy62PYlAITyxF9PxP5u+ecNBOsPx2PagBH7ZNr39yU/MOPn+w==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.3.1",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.3.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XCwbK7ErgZdrwl4ph+i8X5SCGwAepBFbsNIEceozGzrBFVvZbKKJE1WQOft9QyglP4me+DECdVVL8UnI6OO+sg==",
+      "path": "microsoft.identitymodel.logging/8.3.1",
+      "hashPath": "microsoft.identitymodel.logging.8.3.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-77GXREJzIDiKAc/RR8YE267bwzrxM4cjMRCzMQa0Xk1MUUdjx/JwjDJpUh00vT4oxcX5rjsMP0KLd8YjgR3N3w==",
+      "path": "microsoft.identitymodel.tokens/8.3.1",
+      "hashPath": "microsoft.identitymodel.tokens.8.3.1.nupkg.sha512"
+    },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1036,6 +1119,13 @@
       "sha512": "sha512-ZK0KNPfbtxVceTwh+oHNGUOYV2WNOHReX2AXipuvkURC7s/jPwoWfsu3SnDBDgofqbiWr96geofdQ2erm/KTHg==",
       "path": "system.composition.typedparts/7.0.0",
       "hashPath": "system.composition.typedparts.7.0.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/8.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SxdCv+SmnKOhUvryKvrpWJnkuVHj3hU8pUwj7R8zthi73TlBUlMyavon9qfuJsjnqY+L7jusp3Zo0fWFX6mwtw==",
+      "path": "system.identitymodel.tokens.jwt/8.3.1",
+      "hashPath": "system.identitymodel.tokens.jwt.8.3.1.nupkg.sha512"
     },
     "System.IO.Pipelines/7.0.0": {
       "type": "package",

@@ -7,6 +7,7 @@ public static class ManageEndPoints
 
         routes.MapUserClaimPoints();
         routes.MapUserPoints();
+        routes.MapUserAuthApi();
         return routes;
     }
 

@@ -149,6 +149,27 @@ public class IdentityService
             
         };
     }
+    public async Task<User> FindByUserName(string userName)
+    {
+
+        var returnUser = await _userManager.FindByNameAsync(userName);
+
+        if (returnUser == null)
+        {
+            return new User();
+        }
+        return new User
+        {
+            Id = returnUser.Id,
+            Email = returnUser.Email,
+            UserName = returnUser.UserName,
+            FirstName = returnUser.FirstName,
+            MiddleName = returnUser.MiddleName,
+            LastName = returnUser.LastName,
+            IsActive = returnUser.ActiveStatus,
+            LoginIdentifier = returnUser.LoginIdentifier
+        };
+    }
     public async Task<List<GetUserByIdResponse>> GetAll()
     {
         var user= await _userManager.Users.Where(x=>x.ActiveStatus==ActiveStatus.Active 
