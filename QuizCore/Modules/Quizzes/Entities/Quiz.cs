@@ -12,5 +12,5 @@ public class Quiz
      public ActiveStatus ActiveStatus {get;set;}
      public required DateTime CreatedDate {get; set;}
      public required DateTime UpdatedDate {get;set;}
-     public required Category Category { get; set; }
+     public Category? Category { get; set; }
 }
