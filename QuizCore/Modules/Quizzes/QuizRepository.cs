@@ -45,40 +45,40 @@ public class QuizRepository
           .Where(x=>x.Id==id)
           .ExecuteDeleteAsync();
      }
-     // public async Task<GetQuizIdResponse> GetById (Guid id)
-     // {
-     //      return await _dbContext.Categories
-     //      .Where(x=>x.Id==id)
-     //      .Select(x=> new GetQuizIdResponse {
-     //           Id=x.Id,
-     //           Title=x.Title,
-     //           Slug=x.Slug,
-     //           Description=x.Description,
-     //           ActiveStatus=x.ActiveStatus
-     //      }).FirstOrDefaultAsync()?? new GetQuizIdResponse() ;
-     // }
-     // public async Task<GetQuizResponse> GetMany (QuizFilterRequest request)
-     // {
-     //      var response= new GetQuizResponse();
-     //      var q=  _dbContext.Categories.AsNoTracking();
-     //      if(request.Title==null)
-     //      {
-     //           q=q.Where(x=>x.Title.Contains(request.Title!));
-     //      }
-     //      if(request.Slug==null)
-     //      {
-     //           q=q.Where(x=>x.Slug.Contains(request.Slug!));
-     //      }
-     //      if(request.ActiveStatus==null)
-     //      {
-     //           q=q.Where(x=>x.ActiveStatus==request.ActiveStatus);
-     //      }
-     //      response.Categories=await q.Select(x=> new GetQuizResponse.QuizDto {
-     //           Id=x.Id,
-     //           Title=x.Title,
-     //           Slug=x.Slug,
-     //           ActiveStatus=x.ActiveStatus
-     //      }).Skip(request.Offset).Take(request.Limit).ToListAsync();
-     //      return response;
-     // }
+     public async Task<GetQuizByIdResponse> GetById (Guid id)
+     {
+          return await _dbContext.Quizzes
+          .Where(x=>x.Id==id)
+          .Select(x=> new GetQuizByIdResponse {
+               Id=x.Id,
+               Question=x.Question,
+               Answer=x.Answer,
+               Options=x.Options,
+               ActiveStatus=x.ActiveStatus
+          }).FirstOrDefaultAsync()?? new GetQuizByIdResponse() ;
+     }
+     public async Task<GetQuizResponse> GetMany (QuizFilterRequest request)
+     {
+          var response= new GetQuizResponse();
+          var q=  _dbContext.Quizzes.AsNoTracking();
+          if(request.Question==null)
+          {
+               q=q.Where(x=>x.Question.Contains(request.Question!));
+          }
+          if(request.CategoryId!= Guid.Empty)
+          {
+               q=q.Where(x=>x.CategoryId==request.CategoryId);
+          }
+          if(request.ActiveStatus==null)
+          {
+               q=q.Where(x=>x.ActiveStatus==request.ActiveStatus);
+          }
+          response.Quizzes=await q.Select(x=> new GetQuizResponse.QuizDto {
+               Id=x.Id,
+               Question=x.Question,
+               CategoryId=x.CategoryId,
+               ActiveStatus=x.ActiveStatus
+          }).Skip(request.Offset).Take(request.Limit).ToListAsync();
+          return response;
+     }
 }

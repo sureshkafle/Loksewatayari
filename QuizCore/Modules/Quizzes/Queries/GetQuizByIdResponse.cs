@@ -4,10 +4,9 @@ namespace QuizCore.Modules.Quizzes;
 
 public class GetQuizByIdResponse
 {
-     public required Guid Id {get;set;}
-     public required string Question {get;set;}
+     public Guid Id {get;set;}
+     public string? Question {get;set;}
      public string[] Options {get;set;}=[];
-     public required string Answer {get; set;}
-     public Guid CategoryId {get; set;}
+     public string? Answer {get; set;}
      public ActiveStatus ActiveStatus {get;set;}
 }

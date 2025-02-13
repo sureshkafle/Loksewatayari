@@ -10,7 +10,8 @@ public class GetQuizResponse
      {
           public Guid Id { get; set; }
           public required string Question {get;set;}
-          public required string Category {get; set;}
+          public string? Category {get; set;}
+          public Guid CategoryId {get; set;}
           public ActiveStatus ActiveStatus {get;set;}
     }
 }
