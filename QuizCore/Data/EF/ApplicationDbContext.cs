@@ -19,9 +19,9 @@ public partial class ApplicationDbContext : IdentityDbContext<ApplicationUser, I
         CategoryRelations= Set<CategoryRelation>();
         Quizzes= Set<Quiz>();
     }
-    private DbSet<Category> Categories { get; set; }
-    private DbSet<CategoryRelation> CategoryRelations {get;set;}
-    private DbSet<Quiz> Quizzes {get; set;}
+    public DbSet<Category> Categories { get; set; }
+    public DbSet<CategoryRelation> CategoryRelations {get;set;}
+    public DbSet<Quiz> Quizzes {get; set;}
    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
