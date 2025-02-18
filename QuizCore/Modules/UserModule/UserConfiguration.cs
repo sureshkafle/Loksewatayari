@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace QuizCore.Modules.UserModule;
 public static class UserConfiguration
 {
-     public static IServiceCollection AddKpoUserConfigurations(this IServiceCollection services)
+     public static IServiceCollection AddUserConfigurations(this IServiceCollection services)
      {
           services.AddScoped<CreateUserClaimHandler>();
           services.AddScoped<UpdateOwnPasswordHandler>();
