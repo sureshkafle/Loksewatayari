@@ -1,5 +1,7 @@
 using QuizCore.Data;
 using QuizCore.Modules.UserModule;
+using QuizCore.Modules.Categories;
+using QuizCore.Modules.Quizzes;
 using WebApi.EndPoints;
 using QuizCore.Common.DateTimeProviders;
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +18,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IDateTime,DateTimeService>();
 builder.Services.AddApplicationDbContextAndIdentity(builder.Configuration);
-builder.Services.AddKpoUserConfigurations();
+builder.Services.AddUserConfigurations();
+builder.Services.AddCategoryConfigurations();
+builder.Services.AddQuizConfigurations();
 
 var app = builder.Build();
 
