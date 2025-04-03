@@ -9,6 +9,7 @@ public static class ManageEndPoints
         routes.MapUserPoints();
         routes.MapUserAuthApi();
         routes.MapCategoryPoints();
+        routes.MapQuizPoints();
         return routes;
     }
 
