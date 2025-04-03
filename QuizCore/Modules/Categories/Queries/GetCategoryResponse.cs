@@ -21,7 +21,7 @@ public sealed class CategoryFilterRequest
      public int Offset { get; set; } = 0;
      public string? Title {get;set;}
      public string? Slug {get;set;}
-     public int? CategoryLevel {get; set;}
+     public int CategoryLevel {get; set;}
      public ActiveStatus? ActiveStatus {get;set;}
 
 }
