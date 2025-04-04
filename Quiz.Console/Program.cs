@@ -1,5 +1,6 @@
 ﻿using Cocona;
 using Microsoft.Extensions.Logging;
+using MyProject.Data;
 using Quiz.Console;
 
 var builder = CoconaApp.CreateBuilder();
@@ -9,6 +10,16 @@ var app = builder.Build();
 app.AddCommand("test",(MyService myService)=>
 {
      myService.Hello("this is message");
+});
+app.AddCommand("import-quiz",async (QuizImportService service,
+string filename)=>
+{
+    await service.ImportQuizAsync(filename);
+});
+app.AddCommand("import-category",async (CategoryImportService service,
+string filename)=>
+{
+    await service.ImportCategoryAsync(filename);
 });
 app.Run();
 
