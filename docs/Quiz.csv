@@ -1,0 +1,4 @@
+Question,Options,Answer,Category,,Question: The question text.
+"यस संविधानलाई ""नेपालको संविधान"" भनिनेछ  भन्ने कुरा कुन धारामा व्यवस्था गरिएको छ?","[""धारा १"",""धारा ३०६"",""धारा ३०६"",""धारा ३०८""]",धारा ३०६,sambidhan,,"Options: Stored as a JSON array to allow flexibility in the number of options (e.g., [""Option 1"", ""Option 2"", ""Option 3""])."
+हाल गोरखापत्रमा प्रकाशित गरिएको ४५ औँ भाषाको समाचार कुन हो?,"[""दनुवार"",""वाम्वुले राई"","" राना थारु"", ""कुशबडिया""]",वाम्वुले राई,currentaffairs,,Answer: Specifies which option in the array is correct
+interpol को प्रधान कार्यालय कहाँ रहेको छ?,"[""भियाना"", ""लियोन"", ""लण्डन"", ""ब्रसेल्स""]",लियोन,internationalorgs,,Category: Links to a category for grouping questions.

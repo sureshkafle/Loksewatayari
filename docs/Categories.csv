@@ -1,0 +1,5 @@
+Name/Title,Url/Slug,Description,CategoryLevel,IsActive,,,CategoryLevel indicates the depth of the category in the hierarchy.
+नेपाल प्रहरी तयारी,nepal-prahari-tayari,नेपाल प्रहरीमा सोधिने संविधान तर्फको प्रशनहरु,0,1,,,0 for top-level categories.
+राष्ट्रिय बाणिज्य बैंक,rastriya-banijya-bank,बैंक समसामयिक,0,1,,,1 for direct subcategories.
+संविधान,sambidhan,संविधान,1,1,,,2 (or higher) for deeper levels.
+समसामायिक,currentaffairs,समसामायिक,1,1,,,

@@ -46,12 +46,6 @@ public class CategoryImportService
                     continue;
                }
 
-               if (!int.TryParse(parts[1], out var age))
-               {
-                    _logger.LogWarning("Invalid age on line {LineNumber}: {Line}", i + 1, line);
-                    continue;
-               }
-
                var category = new Category
                {
                     Id= Guid.NewGuid(),
@@ -63,6 +57,7 @@ public class CategoryImportService
                     CreatedDate= DateTime.UtcNow,
                     UpdatedDate=DateTime.UtcNow
                };
+               System.Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(category));
                if(IfSlugAlreadyExist(category.Slug))
                {
                     System.Console.WriteLine($"category already exist");
