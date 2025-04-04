@@ -57,14 +57,13 @@ public class CategoryImportService
                     CreatedDate= DateTime.UtcNow,
                     UpdatedDate=DateTime.UtcNow
                };
-               System.Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(category));
                if(IfSlugAlreadyExist(category.Slug))
                {
                     System.Console.WriteLine($"category already exist");
 
                     continue;
                }
-               _dbContext.Categories.Add(category);
+               await _dbContext.Categories.AddAsync(category);
                await _dbContext.SaveChangesAsync();
 
                }
