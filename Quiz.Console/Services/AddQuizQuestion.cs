@@ -62,6 +62,7 @@ public class QuizImportService
                };
                if(quiz.CategoryId==Guid.Empty)
                {
+                    System.Console.WriteLine($"category {parts[3].Trim()} exist");
                     System.Console.WriteLine($"this question does not contain valid category:  {quiz.Question}");
                     continue;
                }
