@@ -1,10 +1,11 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyProject.Data;
 using QuizCore.Data;
 
 namespace Quiz.Console;
 
-public static class KpoConfiguration
+public static class Configuration
 {
 
     public static IServiceCollection ConfigureConsoleServices(
@@ -19,6 +20,8 @@ public static class KpoConfiguration
         services.AddApplicationDbContextAndIdentity(configuration);
 
         services.AddScoped<MyService>();
+        services.AddScoped<CategoryImportService>();
+        services.AddScoped<QuizImportService>();
         return services;
     }
 }
