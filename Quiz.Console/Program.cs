@@ -12,14 +12,14 @@ app.AddCommand("test",(MyService myService)=>
      myService.Hello("this is message");
 });
 app.AddCommand("import-quiz",async (QuizImportService service,
-string filename)=>
+string filepath)=>
 {
-    await service.ImportQuizAsync(filename);
+    await service.ImportQuizAsync(filepath);
 });
 app.AddCommand("import-category",async (CategoryImportService service,
-string filename)=>
+string filepath)=>
 {
-    await service.ImportCategoryAsync(filename);
+    await service.ImportCategoryAsync(filepath);
 });
 app.Run();
 
