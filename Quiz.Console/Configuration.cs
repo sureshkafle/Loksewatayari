@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using QuizCore.Data;
 
 namespace Quiz.Console;
 
@@ -15,6 +16,7 @@ public static class KpoConfiguration
         defaultConnectionString.SetConnectionString(
             configuration.GetConnectionString("DefaultConnection")!
         );
+        services.AddApplicationDbContextAndIdentity(configuration);
 
         services.AddScoped<MyService>();
         return services;

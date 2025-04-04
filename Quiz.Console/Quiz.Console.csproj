@@ -8,16 +8,19 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 <ItemGroup>
-		<PackageReference Include="Cocona" Version="2.1.0" />
-		<PackageReference Include="HtmlAgilityPack" Version="1.11.64" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-		<PackageReference Include="Bogus" Version="35.5.0" />
+		<PackageReference Include="Cocona" Version="2.2.0" />
+		<PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.3" />
+		<PackageReference Include="Bogus" Version="35.6.2" />
 		<Content Include="./appsettings.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+</ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\QuizCore\QuizCore.csproj" />
 </ItemGroup>
 </Project>
