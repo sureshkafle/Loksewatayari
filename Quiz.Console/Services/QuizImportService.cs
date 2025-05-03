@@ -44,12 +44,6 @@ public class QuizImportService
                     continue;
                }
 
-               if (!int.TryParse(parts[1], out var age))
-               {
-                    _logger.LogWarning("Invalid age on line {LineNumber}: {Line}", i + 1, line);
-                    continue;
-               }
-
                var quiz = new QuizEntity
                {
                     Id= Guid.NewGuid(),
@@ -80,7 +74,7 @@ public class QuizImportService
      private Guid GetCategoryId(string category)
      {
           return _dbContext.Categories
-          .Where(x=>x.Slug==category.ToLower())
+          .Where(x=>x.Slug.Equals(category, StringComparison.CurrentCultureIgnoreCase))
           .Select(x=>x.Id)
           .FirstOrDefault();
      }

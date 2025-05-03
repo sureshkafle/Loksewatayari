@@ -60,7 +60,6 @@ public class CategoryImportService
                if(IfSlugAlreadyExist(category.Slug))
                {
                     System.Console.WriteLine($"category already exist");
-
                     continue;
                }
                await _dbContext.Categories.AddAsync(category);
