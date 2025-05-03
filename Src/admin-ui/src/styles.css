@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+htm, body {
+     margin: 0;
+     padding: 0;
+}
+header {
+     display: flex;
+     padding-inline: 16px;
+     padding-block: 8px;
+     background-color: #333;
+     color: white;
+     align-items: center;
+     justify-content: space-between;
+}
+main {
+     padding: 16px;
+}
+*{
+     outline: none;
+}
