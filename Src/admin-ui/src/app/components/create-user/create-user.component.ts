@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './create-user.component.css'
 })
 export class CreateUserComponent {
-
+  activestatus= ['Active','Inactive']
 }
