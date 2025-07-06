@@ -22,6 +22,7 @@ public static class Configuration
         services.AddScoped<MyService>();
         services.AddScoped<CategoryImportService>();
         services.AddScoped<QuizImportService>();
+        services.AddScoped<RemoveHtmlTagsService>();
         return services;
     }
 }

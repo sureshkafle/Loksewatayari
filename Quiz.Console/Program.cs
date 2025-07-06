@@ -21,6 +21,11 @@ string filepath)=>
 {
     await service.ImportCategoryAsync(filepath);
 });
+app.AddCommand("remove-html",(RemoveHtmlTagsService service,
+string filePath)=>
+{
+    service.RemoveHtml(filePath);
+});
 app.Run();
 
 class MyService
