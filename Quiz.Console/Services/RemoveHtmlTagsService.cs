@@ -34,16 +34,29 @@ public class RemoveHtmlTagsService
         if (string.IsNullOrEmpty(input))
             return input;
 
-        // Remove CSS in <style> tags
-        string noCss = Regex.Replace(input, "<style[^>]*>.*?</style>", "", RegexOptions.Singleline | RegexOptions.IgnoreCase);
+        // Remove <style>...</style> (CSS)
+        input = Regex.Replace(input, "<style[^>]*>.*?</style>", "", RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
-        // Remove HTML tags
-        string noHtml = Regex.Replace(noCss, "<.*?>", "");
+        // Remove <script>...</script> (JavaScript)
+        input = Regex.Replace(input, "<script[^>]*>.*?</script>", "", RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
-        // Decode HTML entities
-        string decoded = WebUtility.HtmlDecode(noHtml);
+        // Remove any inline JavaScript-like code such as window.something or __wm.something
+        input = Regex.Replace(input, @"window\.[\s\S]*?;\s*", "", RegexOptions.IgnoreCase);
+        input = Regex.Replace(input, @"__wm\.[\s\S]*?;\s*", "", RegexOptions.IgnoreCase);
 
-        // Trim whitespace
-        return decoded.Trim();
+        // Remove archive_analytics or other inline JS variables
+        input = Regex.Replace(input, @"archive_analytics[\s\S]*?;\s*", "", RegexOptions.IgnoreCase);
+
+        // Remove all remaining HTML tags
+        input = Regex.Replace(input, "<.*?>", "", RegexOptions.Singleline);
+
+        // Decode HTML entities like &nbsp;, &lt;, etc.
+        input = WebUtility.HtmlDecode(input);
+
+        // Normalize whitespace
+        input = Regex.Replace(input, @"\s{2,}", " ").Trim();
+
+        return input;
+
     }
 }
