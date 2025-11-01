@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace MyApp.Namespace
+namespace LokFrontend.Pages.Home
 {
     public class HomeModel : PageModel
     {
