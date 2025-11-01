@@ -1,3 +1,4 @@
+using LokFrontend.Enums;
 namespace LokFrontend.Modules;
 public class Category
 {

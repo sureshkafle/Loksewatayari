@@ -1,3 +1,11 @@
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.AssemblyInfoInputs.cache
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.AssemblyInfo.cs
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.csproj.CoreCompileInputs.cache
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.MvcApplicationPartsAssemblyInfo.cache
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.RazorAssemblyInfo.cache
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.RazorAssemblyInfo.cs
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.sourcelink.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/bin/Debug/net9.0/appsettings.Development.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/bin/Debug/net9.0/appsettings.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/bin/Debug/net9.0/LokFrontend.staticwebassets.runtime.json
@@ -7,14 +15,6 @@
 /Applications/Dotnet/Loksewatayari/LokFrontend/bin/Debug/net9.0/LokFrontend.runtimeconfig.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/bin/Debug/net9.0/LokFrontend.dll
 /Applications/Dotnet/Loksewatayari/LokFrontend/bin/Debug/net9.0/LokFrontend.pdb
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.GeneratedMSBuildEditorConfig.editorconfig
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.AssemblyInfoInputs.cache
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.AssemblyInfo.cs
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.csproj.CoreCompileInputs.cache
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.MvcApplicationPartsAssemblyInfo.cache
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.RazorAssemblyInfo.cache
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.RazorAssemblyInfo.cs
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.sourcelink.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/scopedcss/bundle/LokFrontend.styles.css
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/scopedcss/projectbundle/LokFrontend.bundle.scp.css
