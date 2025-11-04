@@ -1,3 +1,6 @@
+:root {
+  --accent: white;
+}
 html {
   font-size: 14px;
 }
@@ -28,4 +31,33 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+.navbar{
+  background-color: var(--accent);
+}
+.nav-title {
+  color: #258cfb;
+  text-align: center;
+  padding: 10px 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.nav-title a{
+  text-decoration: none;
+}
+.nav-item-container{
+  padding: 10px 10px;
+  text-align: center;
+}
+.nav-item-container a {
+  text-decoration: none;
+}
+.nav-item{
+  padding: 10px 10px;
+  text-align: center;
+  color: #000000;
+}
+
+.nav-item:hover{
+  color: #258cfb;
 }
