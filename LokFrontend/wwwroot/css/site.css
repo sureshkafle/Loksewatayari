@@ -78,3 +78,48 @@ html {
   background-color: #e0e7ff;
 }
 
+.exam-category {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #c6cbd047;
+}
+
+.exam-category__title {
+  font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.exam-category__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.exam-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 350px;
+}
+
+.exam-card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.exam-card__desc {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.exam-card__link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.exam-card__link:hover {
+  text-decoration: underline;
+}
+
