@@ -122,4 +122,12 @@ html {
 .exam-card__link:hover {
   text-decoration: underline;
 }
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 1rem;
+}
+.footer-title {
+  text-align: center;
+}
 

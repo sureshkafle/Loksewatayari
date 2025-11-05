@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a4Pk4FIUhO1OOzLdOyydijvgvOP/85dj1szCZOWugtQ=",
+  "Hash": "sIdJRg1fVvYq2jWLhUbCvgBxGoAvUUj4r4ViSc3HHl0=",
   "Source": "LokFrontend",
   "BasePath": "_content/LokFrontend",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-cxpay9sssu.gz",
+      "Identity": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-g818gxeu43.gz",
       "SourceId": "LokFrontend",
       "SourceType": "Discovered",
       "ContentRoot": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/LokFrontend",
-      "RelativePath": "css/site#[.{fingerprint=cxpay9sssu}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=g818gxeu43}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ekbskqkia7",
-      "Integrity": "jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls=",
+      "Fingerprint": "sltib6wdwf",
+      "Integrity": "YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cxpay9sssu",
-      "Integrity": "wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs=",
+      "Fingerprint": "g818gxeu43",
+      "Integrity": "wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2729,12 +2729,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-cxpay9sssu.gz",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-g818gxeu43.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001597444089"
+          "Quality": "0.001538461538"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "625"
+          "Value": "649"
         },
         {
           "Name": "ETag",
-          "Value": "\"jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls=\""
+          "Value": "\"YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 16:46:15 GMT"
+          "Value": "Wed, 05 Nov 2025 17:01:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2772,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs=\""
+          "Value": "W/\"wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs="
+          "Value": "sha256-wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE="
         }
       ]
     },
@@ -2793,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1848"
+          "Value": "1970"
         },
         {
           "Name": "Content-Type",
@@ -2801,11 +2801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs=\""
+          "Value": "\"wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 16:46:15 GMT"
+          "Value": "Wed, 05 Nov 2025 17:01:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2815,13 +2815,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs="
+          "Value": "sha256-wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-cxpay9sssu.gz",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-g818gxeu43.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2830,7 +2830,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "625"
+          "Value": "649"
         },
         {
           "Name": "Content-Type",
@@ -2838,11 +2838,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls=\""
+          "Value": "\"YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 16:46:15 GMT"
+          "Value": "Wed, 05 Nov 2025 17:01:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2860,18 +2860,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls="
+          "Value": "sha256-YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE="
         }
       ]
     },
     {
-      "Route": "css/site.cxpay9sssu.css",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-cxpay9sssu.gz",
+      "Route": "css/site.g818gxeu43.css",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-g818gxeu43.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001597444089"
+          "Quality": "0.001538461538"
         }
       ],
       "ResponseHeaders": [
@@ -2881,15 +2881,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "625"
+          "Value": "649"
         },
         {
           "Name": "ETag",
-          "Value": "\"jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls=\""
+          "Value": "\"YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 16:46:15 GMT"
+          "Value": "Wed, 05 Nov 2025 17:01:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2909,13 +2909,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs=\""
+          "Value": "W/\"wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cxpay9sssu"
+          "Value": "g818gxeu43"
         },
         {
           "Name": "label",
@@ -2923,12 +2923,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs="
+          "Value": "sha256-wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE="
         }
       ]
     },
     {
-      "Route": "css/site.cxpay9sssu.css",
+      "Route": "css/site.g818gxeu43.css",
       "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2938,7 +2938,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1848"
+          "Value": "1970"
         },
         {
           "Name": "Content-Type",
@@ -2946,11 +2946,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs=\""
+          "Value": "\"wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 16:46:15 GMT"
+          "Value": "Wed, 05 Nov 2025 17:01:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2960,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cxpay9sssu"
+          "Value": "g818gxeu43"
         },
         {
           "Name": "label",
@@ -2968,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wIfH6aIONJMeJ+XKkrIOlHa9JnczPUlaWnNF5HTz/Xs="
+          "Value": "sha256-wLNCVFxM6iH343E9TtkMLWPSyzRd06l/4WkiGgl9vvE="
         }
       ]
     },
     {
-      "Route": "css/site.cxpay9sssu.css.gz",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-cxpay9sssu.gz",
+      "Route": "css/site.g818gxeu43.css.gz",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-g818gxeu43.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "625"
+          "Value": "649"
         },
         {
           "Name": "Content-Type",
@@ -2991,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls=\""
+          "Value": "\"YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Nov 2025 16:46:15 GMT"
+          "Value": "Wed, 05 Nov 2025 17:01:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3013,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cxpay9sssu"
+          "Value": "g818gxeu43"
         },
         {
           "Name": "label",
@@ -3021,7 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jiUd+PTs7r4VULWgu+B2i7jOr0nD5ZbEOas37ZZXnls="
+          "Value": "sha256-YGkO3ir6vV45WmCz7Nq+fnXSLW/a+oQ15U5ugO/KgyE="
         }
       ]
     },
