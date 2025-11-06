@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿const hamburger = document.querySelector(".hamburger");
+const navItemContainer = document.querySelector(".nav-item-container");
 
-// Write your JavaScript code.
+hamburger.addEventListener("click",()=> {
+     hamburger.classList.toggle("active");
+     navItemContainer.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-item").forEach(n => n.
+     addEventListener("click",() => {
+          hamburger.classList.remove("active");
+          navItemContainer.classList.remove("active");
+     }))
