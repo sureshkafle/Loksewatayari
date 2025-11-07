@@ -9,8 +9,16 @@
     </div>
     <div class="nav-item-container">
         <a asp-page="/Index" class="nav-item">Home</a>
-        <a asp-page="/Practice" class="nav-item">Practice</a>
-        <a asp-page="/Dashboard" class="nav-item">Dashboard</a>
+        <div class="dropdown">
+        <button class="nav-item dropdown-btn">Practice ▾</button>
+        <div class="dropdown-content">
+            <a asp-page="/Practice/GeneralKnowledge">General Knowledge</a>
+            <a asp-page="/Practice/Math">Mathematics</a>
+            <a asp-page="/Practice/English">English</a>
+            <a asp-page="/Practice/Computer">Computer</a>
+        </div>
+        </div>
+        <a asp-page="/Course" class="nav-item">Course</a>
         <a asp-page="/Login" class="nav-item">Login</a>
     </div>
 </nav>
