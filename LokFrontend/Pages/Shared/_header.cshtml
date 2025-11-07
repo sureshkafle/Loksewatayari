@@ -18,7 +18,15 @@
             <a asp-page="/Practice/Computer">Computer</a>
         </div>
         </div>
-        <a asp-page="/Course" class="nav-item">Course</a>
+        <div class="dropdown">
+        <button class="nav-item dropdown-btn">Course ▾</button>
+        <div class="dropdown-content">
+            <a asp-page="/Practice/GeneralKnowledge">General Knowledge</a>
+            <a asp-page="/Practice/Math">Mathematics</a>
+            <a asp-page="/Practice/English">English</a>
+            <a asp-page="/Practice/Computer">Computer</a>
+        </div>
+        </div>
         <a asp-page="/Login" class="nav-item">Login</a>
     </div>
 </nav>

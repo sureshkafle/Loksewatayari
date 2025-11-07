@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LokFrontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55384be1b2b98cdb2dbd853947c20398cf8bf9c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ed754017122cfa5eec3d911d07fe1c58cb44005")]
 [assembly: System.Reflection.AssemblyProductAttribute("LokFrontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LokFrontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
