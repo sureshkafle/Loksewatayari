@@ -224,6 +224,22 @@ html {
 .see-more-btn:hover {
   background-color: #1e40af;
 }
+.notice-header h3 {
+  color: #111827;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.notice-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.notice-summary {
+  color: #374151;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
 @media (max-width: 768px) {
   html {
     font-size: 12px;
