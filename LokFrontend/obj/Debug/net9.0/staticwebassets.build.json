@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "me0CvaVxoI1DXcQvZlTQm3rw84Rtlv3FgiwYVXYTnHI=",
+  "Hash": "F3pKgL9vfegnzFo2XCwwkkU9CiFMYkhpt1F1m1Dv3As=",
   "Source": "LokFrontend",
   "BasePath": "_content/LokFrontend",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-45ncqvo6kp.gz",
+      "Identity": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-hkyo762pxb.gz",
       "SourceId": "LokFrontend",
       "SourceType": "Discovered",
       "ContentRoot": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/LokFrontend",
-      "RelativePath": "css/site#[.{fingerprint=45ncqvo6kp}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=hkyo762pxb}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dg8pxxsawe",
-      "Integrity": "8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY=",
+      "Fingerprint": "4xvohx7ckd",
+      "Integrity": "mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "45ncqvo6kp",
-      "Integrity": "KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc=",
+      "Fingerprint": "hkyo762pxb",
+      "Integrity": "AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.45ncqvo6kp.css",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-45ncqvo6kp.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-hkyo762pxb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000901713255"
+          "Quality": "0.000913242009"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1108"
+          "Value": "1094"
         },
         {
           "Name": "ETag",
-          "Value": "\"8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY=\""
+          "Value": "\"mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Nov 2025 06:13:08 GMT"
+          "Value": "Sat, 08 Nov 2025 06:17:49 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2772,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc=\""
+          "Value": "W/\"AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "45ncqvo6kp"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc="
+          "Value": "sha256-AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg="
         }
       ]
     },
     {
-      "Route": "css/site.45ncqvo6kp.css",
+      "Route": "css/site.css",
       "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3631"
+          "Value": "3570"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2801,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc=\""
+          "Value": "\"AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Nov 2025 06:13:08 GMT"
+          "Value": "Sat, 08 Nov 2025 06:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-hkyo762pxb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 06:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.hkyo762pxb.css",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-hkyo762pxb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000913242009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 06:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hkyo762pxb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.hkyo762pxb.css",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 06:17:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "45ncqvo6kp"
+          "Value": "hkyo762pxb"
         },
         {
           "Name": "label",
@@ -2831,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc="
+          "Value": "sha256-AWTEXPDettAzgMgLjzmGG8ADMibUfvqioswdJudRjbg="
         }
       ]
     },
     {
-      "Route": "css/site.45ncqvo6kp.css.gz",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-45ncqvo6kp.gz",
+      "Route": "css/site.hkyo762pxb.css.gz",
+      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-hkyo762pxb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1108"
+          "Value": "1094"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY=\""
+          "Value": "\"mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Nov 2025 06:13:08 GMT"
+          "Value": "Sat, 08 Nov 2025 06:17:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "45ncqvo6kp"
+          "Value": "hkyo762pxb"
         },
         {
           "Name": "label",
@@ -2884,144 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-45ncqvo6kp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000901713255"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1108"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Nov 2025 06:13:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3631"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Nov 2025 06:13:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KDZUAEFCa2ISjwWDmqCoEnsUCnfPYEdi0WIeOZzC4kc="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-45ncqvo6kp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1108"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Nov 2025 06:13:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8+MUrN+1ezD7sXT244MXyLiqhTjjQycp4D0YcniBcRY="
+          "Value": "sha256-mPyQWhB5aVNJWIXNoP7JUj7dZvehnuO0TX2hQpWA35E="
         }
       ]
     },

@@ -154,9 +154,6 @@ html {
   color: #333;
 }
 
-/* .dropdown-content a:hover {
-  background-color: #f0f0f0;
-} */
 .dropdown-btn {
   border: 0px;
   background-color: var(--accent);
@@ -181,7 +178,7 @@ html {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.sub-dropdown:hover li{
+.dropdown-content a:hover {
   color: #258cfb;
 }
 @media (max-width: 768px) {
