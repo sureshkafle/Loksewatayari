@@ -144,9 +144,8 @@ html {
   position: absolute;
   background-color: #fff;
   min-width: 100%;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
   border-radius: 6px;
-  top: 100%;
   left: 0;
 }
 
@@ -164,7 +163,9 @@ html {
 }
 /* Show dropdown on hover (for desktop) */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
 }
 
 @media (max-width: 768px) {
