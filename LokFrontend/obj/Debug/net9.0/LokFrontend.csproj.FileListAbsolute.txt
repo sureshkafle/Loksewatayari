@@ -95,4 +95,4 @@
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.pdb
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.genruntimeconfig.cache
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/ref/LokFrontend.dll
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-4o0e6ta3ae.gz
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-45ncqvo6kp.gz

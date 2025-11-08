@@ -154,9 +154,9 @@ html {
   color: #333;
 }
 
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
   background-color: #f0f0f0;
-}
+} */
 .dropdown-btn {
   border: 0px;
   background-color: var(--accent);
@@ -167,7 +167,23 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
 }
-
+.sub-dropdown strong {
+  font-size: 16px;
+  color: #258cfb;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.sub-dropdown ul {
+  list-style: none;
+}
+.sub-dropdown li {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sub-dropdown:hover li{
+  color: #258cfb;
+}
 @media (max-width: 768px) {
   html {
     font-size: 12px;
