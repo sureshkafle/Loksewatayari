@@ -19,7 +19,6 @@
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/scopedcss/bundle/LokFrontend.styles.css
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/scopedcss/projectbundle/LokFrontend.bundle.scp.css
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/fywzaehc2s-61n19gt1b8.gz
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/lskhywaefr-sn22j0gbns.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/o4kxhbnsqn-bqjiyaj88i.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/5m6yh3manz-c2jlpeoesf.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/m9zhtoh8ip-erw9l3u2r3.gz
@@ -95,4 +94,5 @@
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.pdb
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/LokFrontend.genruntimeconfig.cache
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/ref/LokFrontend.dll
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-k3mofdqbg1.gz
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/lskhywaefr-eg9y4rpnbi.gz
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/c2aukdzhzl-1co0alu7vw.gz

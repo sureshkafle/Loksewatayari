@@ -215,6 +215,7 @@ html {
     position: relative;
   }
   .dropdown-content {
+    display: none;
     position: static;
     box-shadow: none;
     background: transparent;
@@ -222,5 +223,10 @@ html {
 
   .dropdown-content a {
     padding-left: 1.5rem;
+  }
+  .dropdown-content.show {
+    display: grid;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
