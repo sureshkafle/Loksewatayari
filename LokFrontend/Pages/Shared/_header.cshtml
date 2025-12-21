@@ -1,0 +1,85 @@
+<nav class="navbar">
+    <div class="nav-title">
+        <a href="/" class="text-2xl font-bold text-blue-600">LoksewaPrep</a>
+    </div>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <div class="nav-item-container">
+        <a asp-page="/Index" class="nav-item">Home</a>
+        <div class="dropdown">
+        <button class="nav-item dropdown-btn" id="practiceBtn">Practice ▾</button>
+        <div class="dropdown-content" id="practiceMenu">
+            <div class="sub-dropdown">
+            <strong>General Knowledge</strong>
+            <ul>
+                <li><a asp-page="/Practice/History">History</a></li>
+                <li><a asp-page="/Practice/Geography">Geography</a></li>
+                <li><a asp-page="/Practice/Politics">Politics</a></li>
+            </ul>
+            </div>
+
+            <!-- Mathematics -->
+            <div class="sub-dropdown">
+            <strong>Mathematics</strong>
+            <ul>
+                <li><a asp-page="/Practice/Arithmetic">Arithmetic</a></li>
+                <li><a asp-page="/Practice/Algebra">Algebra</a></li>
+                <li><a asp-page="/Practice/Geometry">Geometry</a></li>
+            </ul>
+            </div>
+
+            <!-- English -->
+            <div class="sub-dropdown">
+            <strong>English</strong>
+            <ul>
+                <li><a asp-page="/Practice/Grammar">Grammar</a></li>
+                <li><a asp-page="/Practice/Vocabulary">Vocabulary</a></li>
+                <li><a asp-page="/Practice/Comprehension">Comprehension</a></li>
+            </ul>
+            </div>
+
+            <!-- Computer -->
+            <div class="sub-dropdown">
+            <strong>Computer</strong>
+            <ul>
+                <li><a asp-page="/Practice/Basics">Basics</a></li>
+                <li><a asp-page="/Practice/Networking">Networking</a></li>
+                <li><a asp-page="/Practice/MSOffice">MS Office</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="nav-item dropdown-btn">Course ▾</button>
+        <div class="dropdown-content">
+            <a asp-page="/Practice/GeneralKnowledge">General Knowledge</a>
+            <a asp-page="/Practice/Math">Mathematics</a>
+            <a asp-page="/Practice/English">English</a>
+            <a asp-page="/Practice/Computer">Computer</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="nav-item dropdown-btn">Exams ▾</button>
+        <div class="dropdown-content">
+            <a asp-page="/Practice/GeneralKnowledge">General Knowledge</a>
+            <a asp-page="/Practice/Math">Mathematics</a>
+            <a asp-page="/Practice/English">English</a>
+            <a asp-page="/Practice/Computer">Computer</a>
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="nav-item dropdown-btn">Mock Tests ▾</button>
+        <div class="dropdown-content">
+            <a asp-page="/Practice/GeneralKnowledge">General Knowledge</a>
+            <a asp-page="/Practice/Math">Mathematics</a>
+            <a asp-page="/Practice/English">English</a>
+            <a asp-page="/Practice/Computer">Computer</a>
+        </div>
+        </div>
+        <a href="/notices" class="nav-item">Notices</a>
+        <a asp-page="/Login" class="nav-item">Login</a>
+    </div>
+</nav>
