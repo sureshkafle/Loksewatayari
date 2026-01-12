@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\pages\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\pages\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\wwwroot\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\wwwroot\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\pages\\quizpage\\practicepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\pages\\quizpage\\practicepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|c:\\users\\roshan\\desktop\\project\\loksewatayari\\lokfrontend\\wwwroot\\css\\customt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8CBDD6BD-2A5F-49EA-9B5B-219619B961CC}|LokFrontend\\LokFrontend.csproj|solutionrelative:lokfrontend\\wwwroot\\css\\customt.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "custom.js",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\wwwroot\\js\\custom.js",
+              "RelativeDocumentMoniker": "LokFrontend\\wwwroot\\js\\custom.js",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\wwwroot\\js\\custom.js",
+              "RelativeToolTip": "LokFrontend\\wwwroot\\js\\custom.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-11T16:37:53.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "LokFrontend\\Pages\\Home\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\Home\\Home.cshtml",
+              "RelativeToolTip": "LokFrontend\\Pages\\Home\\Home.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T16:18:33.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "LokFrontend\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\Index.cshtml",
+              "RelativeToolTip": "LokFrontend\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T16:18:14.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "customt.css",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\wwwroot\\css\\customt.css",
+              "RelativeDocumentMoniker": "LokFrontend\\wwwroot\\css\\customt.css",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\wwwroot\\css\\customt.css",
+              "RelativeToolTip": "LokFrontend\\wwwroot\\css\\customt.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T16:14:58.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Practicepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\QuizPage\\Practicepage.cshtml",
+              "RelativeDocumentMoniker": "LokFrontend\\Pages\\QuizPage\\Practicepage.cshtml",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\QuizPage\\Practicepage.cshtml",
+              "RelativeToolTip": "LokFrontend\\Pages\\QuizPage\\Practicepage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T15:48:20.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LokFrontend\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LokFrontend\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T15:38:51.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LokFrontend\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Roshan\\Desktop\\Project\\Loksewatayari\\LokFrontend\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LokFrontend\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T15:36:55.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
