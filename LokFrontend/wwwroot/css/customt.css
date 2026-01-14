@@ -64,3 +64,78 @@ aside {
     margin-top: 1rem;
     font-weight: bold;
 }
+/*Styles for Main Categroy Page*/
+.exam-category__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.exam-card {
+    background: #ffffff;
+    padding: 1.75rem 1.5rem;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    text-align: center;
+    cursor: pointer;
+}
+.exam-card__title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 0.35rem;
+}
+
+.exam-card__desc {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+
+.sub-category {
+    margin-top: 1rem;
+    display: none;
+}
+
+    .sub-category.open {
+        display: block;
+    }
+
+    .sub-category ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sub-category li {
+        margin-bottom: 0.5rem;
+    }
+
+    .sub-category a {
+        text-decoration: none;
+        color: #2563eb;
+    }
+.sub-category__grid {
+    display: flex;
+    flex-wrap: wrap; /* KEY: prevents overlap */
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+.sub-category__card {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px; /* pill shape */
+    padding: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+    color: #334155;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+    .sub-category__card:hover {
+        background: #eef2ff;
+        border-color: #c7d2fe;
+        color: #1e3a8a;
+    }
+

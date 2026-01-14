@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LokFrontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+477a94a681b259acfae03989fb773d778b8d4485")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e93b7dd39b29c9d9639755b45751c98ad1bd541a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LokFrontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LokFrontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -105,3 +105,18 @@ const timer = setInterval(() => {
     }
     time--;
 }, 1000);
+
+
+/* JS for main category toggle */
+
+function toggleSub(id) {
+    const el = document.getElementById(`sub-${id}`);
+
+    if (el.classList.contains("open")) {
+        el.style.maxHeight = "0";
+        el.classList.remove("open");
+    } else {
+        el.classList.add("open");
+        el.style.maxHeight = el.scrollHeight + "px";
+    }
+}

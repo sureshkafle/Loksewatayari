@@ -1,0 +1,27 @@
+﻿@page
+@model LokFrontend.Pages.Categories.MainCategoryModel
+
+<section class="exam-category">
+    <h2 class="exam-category__title">Choose Your Exam Category</h2>
+
+    <div class="exam-category__cards">
+        @foreach (var category in Model.Categories)
+        {
+            <div class="exam-card" onclick="toggleSub(@category.Id)">
+                <h3 class="exam-card__title">@category.Name</h3>
+                <p class="exam-card__desc">@category.Description</p>
+
+                <div id="sub-@category.Id" class="sub-category">
+                    <ul>
+                        @foreach (var sub in category.SubCategories)
+                        {
+                            <li>
+                                <a asp-page="@sub.PageUrl">@sub.Name</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+</section>

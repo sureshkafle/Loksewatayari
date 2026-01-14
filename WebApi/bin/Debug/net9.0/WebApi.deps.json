@@ -802,14 +802,7 @@
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Text.Encodings.Web/8.0.0": {},
-      "System.Text.Json/9.0.1": {
-        "runtime": {
-          "lib/net9.0/System.Text.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
-          }
-        }
-      },
+      "System.Text.Json/9.0.1": {},
       "System.Threading.Channels/7.0.0": {},
       "QuizCore/1.0.0": {
         "dependencies": {
@@ -823,7 +816,7 @@
         },
         "runtime": {
           "QuizCore.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
