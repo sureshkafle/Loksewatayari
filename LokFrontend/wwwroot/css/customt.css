@@ -139,3 +139,102 @@ aside {
         color: #1e3a8a;
     }
 
+/*Styles for Tool tip sub categories*/
+
+.category-layout {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+/* MAIN SECTION */
+.sub-category-section {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.section-title {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: #0f172a;
+    font-family: Aparajita;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-category__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+}
+
+.sub-category__card {
+    background: #ccffff;
+    border: 1px solid #bae6fd;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border-radius: 999px; /* pill style */
+    font-size: 1.02rem;
+    font-family: Aparajita;
+    color: #0f172a;
+    text-decoration: none;
+    display: block;
+    justify-content:center;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+    .sub-category__card:hover {
+        background: #a5f3fc;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    }
+
+
+/* ASIDE */
+.info-aside {
+    background: #f9fafb;
+    padding: 1.25rem;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+}
+
+.aside-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #111827;
+}
+
+.ad-box {
+    margin-top: 1.25rem;
+}
+
+.ad-placeholder {
+    height: 120px;
+    background: #e5e7eb;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .category-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .info-aside {
+        order: -1; /* Move aside above on mobile */
+    }
+}
+
+
+

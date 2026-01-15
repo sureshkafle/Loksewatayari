@@ -18,9 +18,9 @@ namespace LokFrontend.Pages.Categories
                 Description = "Gazetted exams & competitive tests",
                 SubCategories =
                 {
-                    new() { Id = 1, Name = "General Knowledge", PageUrl = "/Practice/GK" },
-                    new() { Id = 2, Name = "IQ", PageUrl = "/Practice/IQ" },
-                    new() { Id = 3, Name = "Subjective", PageUrl = "/Practice/Subjective" }
+                    new() { Id = 1, Name = "General Knowledge", PageUrl = "/Categories/SubCatPage" },
+                    new() { Id = 2, Name = "IQ", PageUrl = "/Categories/SubCatPage" },
+                    new() { Id = 3, Name = "Subjective", PageUrl = "/Categories/SubCatPage" }
                 }
             },
             new CategoryViewModel
@@ -30,8 +30,8 @@ namespace LokFrontend.Pages.Categories
                 Description = "Previous year & mock tests",
                 SubCategories =
                 {
-                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/NS/GK" },
-                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/NS/Math" }
+                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/SubCatPage" },
+                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/SubCatPage" }
                 }
             },
             new CategoryViewModel
@@ -41,8 +41,8 @@ namespace LokFrontend.Pages.Categories
                 Description = "Previous year & mock tests",
                 SubCategories =
                 {
-                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/NS/GK" },
-                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/NS/Math" }
+                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/SubCatPage" },
+                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/SubCatPage" }
                 }
             },
             new CategoryViewModel
@@ -52,8 +52,8 @@ namespace LokFrontend.Pages.Categories
                 Description = "Previous year & mock tests",
                 SubCategories =
                 {
-                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/NS/GK" },
-                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/NS/Math" }
+                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/SubCatPage" },
+                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/SubCatPage" }
                 }
             },
             new CategoryViewModel
@@ -63,8 +63,8 @@ namespace LokFrontend.Pages.Categories
                 Description = "Previous year & mock tests",
                 SubCategories =
                 {
-                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/NS/GK" },
-                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/NS/Math" }
+                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/SubCatPage" },
+                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/SubCatPage" }
                 }
             },
             new CategoryViewModel
@@ -74,8 +74,8 @@ namespace LokFrontend.Pages.Categories
                 Description = "Previous year & mock tests",
                 SubCategories =
                 {
-                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/NS/GK" },
-                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/NS/Math" }
+                    new() { Id = 4, Name = "GK & Current Affairs", PageUrl = "/Practice/SubCatPage" },
+                    new() { Id = 5, Name = "Maths", PageUrl = "/Practice/SubCatPage" }
                 }
             }
         };
