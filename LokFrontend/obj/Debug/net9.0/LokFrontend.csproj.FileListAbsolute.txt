@@ -194,5 +194,5 @@ C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\rjims
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\compressed\v4up5et98k-0j8sjh6ozd.gz
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\compressed\6bcv44jmx0-wtmt0ltq0q.gz
+C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\obj\Debug\net9.0\compressed\v4up5et98k-k0wc0x987p.gz
