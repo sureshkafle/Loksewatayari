@@ -1,6 +1,5 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\custom.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -63,9 +62,9 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\css\customt.css
+wwwroot\js\custom.js
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\css\site.css
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\favicon.ico
-C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\js\custom.js
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\js\site.js
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -127,3 +126,4 @@ C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\lib\jquery\dis
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\css\customt.css
+C:\Users\Roshan\Desktop\Project\Loksewatayari\LokFrontend\wwwroot\js\custom.js

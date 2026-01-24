@@ -31,28 +31,84 @@ aside {
     flex: 1;
 }
 
-.option {
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
+.question {
+    margin-bottom: 2rem;
 }
 
-    .option.correct {
-        color: green;
-        border-color: green;
+.question-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+    .option:hover {
+        background: #f3f4f6;
     }
 
-    .option.wrong {
-        color: red;
-        border-color: red;
+/* Label (A, B, C, D) */
+.option-label {
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.answer-desc {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: #f9fafb;
+    border-left: 4px solid #3b82f6;
+    font-size: 0.9rem;
+    color: #374151;
+    display: none;
+    border-radius: 6px;
+}
+
+
+/* Correct */
+.option.correct {
+    background: #ecfdf5;
+    color: #15803d;
+}
+
+    .option.correct .option-label {
+        background: #bbf7d0;
+        color: #14532d;
     }
 
-    .option.disabled {
-        pointer-events: none;
-        opacity: 0.8;
+/* Wrong */
+.option.wrong {
+    background: #fef2f2;
+    color: #b91c1c;
+}
+
+    .option.wrong .option-label {
+        background: #fecaca;
+        color: #7f1d1d;
     }
+
+.option.disabled {
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+
 
 .timer {
     font-size: 1.3rem;
@@ -79,6 +135,7 @@ aside {
     text-align: center;
     cursor: pointer;
 }
+
 .exam-card__title {
     font-size: 1.15rem;
     font-weight: 600;
@@ -114,6 +171,7 @@ aside {
         text-decoration: none;
         color: #2563eb;
     }
+
 .sub-category__grid {
     display: flex;
     flex-wrap: wrap; /* KEY: prevents overlap */
@@ -121,6 +179,7 @@ aside {
     justify-content: center;
     margin-top: 0.75rem;
 }
+
 .sub-category__card {
     background: #f8fafc;
     border: 1px solid #e5e7eb;
@@ -182,7 +241,7 @@ aside {
     color: #0f172a;
     text-decoration: none;
     display: block;
-    justify-content:center;
+    justify-content: center;
     white-space: normal;
     word-break: break-word;
     overflow-wrap: anywhere;
@@ -235,6 +294,3 @@ aside {
         order: -1; /* Move aside above on mobile */
     }
 }
-
-
-
