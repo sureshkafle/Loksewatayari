@@ -9,5 +9,5 @@ obj/
 *.vsidx
 
 ## Build results
-bin/
-obj/
+*.bin/
+*.obj/
