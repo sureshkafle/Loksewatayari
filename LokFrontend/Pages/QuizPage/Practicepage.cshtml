@@ -1,9 +1,9 @@
-﻿@page
+﻿@page 
 @model LokFrontend.Pages.QuizPage.PracticepageModel
 @{
 }
 
-<h2 class="text-center mt-3">Online Quiz</h2>
+@* <h2 class="text-center mt-3">Online Quiz</h2>
 
 <div class="quiz-container">
 
@@ -20,5 +20,47 @@
         </h4>
     </aside>
 
+</div> *@
+
+<h2>Online Quiz</h2>
+
+<div>
+    Time Left: <span id="timer">60</span> seconds
 </div>
+
+<form method="post">
+    <p>
+        <b>Question @(Model.CurrentIndex + 1):</b>
+        @Model.Questions[Model.CurrentIndex].Text
+    </p>
+
+    @for (int i = 0; i < Model.Questions[Model.CurrentIndex].Options.Count; i++)
+    {
+        <input type="radio" name="SelectedAnswer" value="@i" required />
+        @Model.Questions[Model.CurrentIndex].Options[i]
+        <br />
+    }
+
+    <br />
+
+    <button type="submit" asp-page-handler="Next">
+        @(Model.CurrentIndex == Model.Questions.Count - 1 ? "Finish" : "Next")
+    </button>
+</form>
+
+<script>
+    let timeLeft = 60;
+    let timer = document.getElementById("timer");
+
+    let countdown = setInterval(function () {
+        timeLeft--;
+        timer.innerText = timeLeft;
+
+        if (timeLeft <= 0) {
+            clearInterval(countdown);
+            document.forms[0].submit();
+        }
+    }, 1000);
+</script>
+
 
