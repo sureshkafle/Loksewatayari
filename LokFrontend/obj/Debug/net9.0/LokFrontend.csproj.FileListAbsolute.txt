@@ -128,7 +128,6 @@ C:/Users/Roshan/Desktop/Project/Loksewatayari/LokFrontend/obj/Debug/net9.0/stati
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/7eaytjqhck-{0}-wyughnff0b-wyughnff0b.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/sgy3fdoka3-{0}-61n19gt1b8-61n19gt1b8.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/853dffe7ox-{0}-eg9y4rpnbi-eg9y4rpnbi.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/k31yeg60d7-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -196,5 +195,6 @@ C:/Users/Roshan/Desktop/Project/Loksewatayari/LokFrontend/obj/Debug/net9.0/stati
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/swae.build.ex.cache
 C:/Users/Roshan/Desktop/Project/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/v4up5et98k-b52m508dd5.gz
 C:/Users/Roshan/Desktop/Project/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/6bcv44jmx0-9hc8boj2ll.gz
-/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/5fxi704trt-{0}-07cextv0d3-07cextv0d3.gz
 /Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/jshmqbbpfd-{0}-v0eb64f9ce-v0eb64f9ce.gz
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/7eaytjqhck-{0}-ac5zt0t23p-ac5zt0t23p.gz
+/Applications/Dotnet/Loksewatayari/LokFrontend/obj/Debug/net9.0/compressed/5fxi704trt-{0}-3lrziejwxl-3lrziejwxl.gz

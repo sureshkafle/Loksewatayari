@@ -56,7 +56,7 @@ aside {
     }
 
 /* Label (A, B, C, D) */
-.option-label {
+/* .option-label {
     width: 24px;
     height: 24px;
     border-radius: 8px;
@@ -67,7 +67,7 @@ aside {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-}
+} */
 
 .answer-desc {
     margin-top: 10px;

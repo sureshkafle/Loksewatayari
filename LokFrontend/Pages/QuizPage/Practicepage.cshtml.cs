@@ -16,65 +16,49 @@ namespace LokFrontend.Pages.QuizPage
         public List<Question> Questions { get; set; }
 
         [BindProperty]
-        public int SelectedAnswer { get; set; }
+        public List<int> UserAnswers { get; set; }
 
-        public int CurrentIndex { get; set; }
         public int Score { get; set; }
+
+        public bool IsSubmitted { get; set; }
 
         public void OnGet()
         {
             LoadQuestions();
-
-            HttpContext.Session.SetInt32("index", 0);
-            HttpContext.Session.SetInt32("score", 0);
-
-            CurrentIndex = 0;
         }
 
-        public IActionResult OnPostNext()
+        public void OnPost()
         {
             LoadQuestions();
+            IsSubmitted = true;
+            Score = 0;
 
-            CurrentIndex = HttpContext.Session.GetInt32("index") ?? 0;
-            Score = HttpContext.Session.GetInt32("score") ?? 0;
-
-            if (SelectedAnswer == Questions[CurrentIndex].CorrectAnswer)
+            for (int i = 0; i < Questions.Count; i++)
             {
-                Score++;
+                if (UserAnswers != null && UserAnswers[i] == Questions[i].CorrectAnswer)
+                {
+                    Score++;
+                }
             }
-
-            CurrentIndex++;
-            HttpContext.Session.SetInt32("index", CurrentIndex);
-            HttpContext.Session.SetInt32("score", Score);
-
-            if (CurrentIndex >= Questions.Count)
-            {
-                return RedirectToPage("/Result/Result");
-            }
-
-            return Page();
         }
 
         private void LoadQuestions()
         {
             Questions = new List<Question>
             {
-                new Question
-                {
-                    Text = "What is the capital of Nepal?",
-                    Options = new List<string> { "Pokhara", "Kathmandu", "Biratnagar", "Lalitpur" },
+                new Question {
+                    Text = "Capital of Nepal?",
+                    Options = new List<string>{ "Pokhara", "Kathmandu", "Butwal", "Biratnagar" },
                     CorrectAnswer = 1
                 },
-                new Question
-                {
-                    Text = "Which language is used in ASP.NET?",
-                    Options = new List<string> { "Python", "Java", "C#", "PHP" },
+                new Question {
+                    Text = "ASP.NET uses?",
+                    Options = new List<string>{ "Java", "Python", "C#", "PHP" },
                     CorrectAnswer = 2
                 },
-                new Question
-                {
+                new Question {
                     Text = "HTML stands for?",
-                    Options = new List<string> {
+                    Options = new List<string>{
                         "Hyper Text Markup Language",
                         "High Text Machine Language",
                         "Hyperlinks Text Mark Language",
@@ -86,4 +70,3 @@ namespace LokFrontend.Pages.QuizPage
         }
     }
 }
-

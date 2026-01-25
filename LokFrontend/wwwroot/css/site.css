@@ -323,7 +323,64 @@ html {
     .back-btn:hover {
         background-color: #1e40af;
     }
-
+    
+    .quiz-header {
+        border: 1px solid #ccc;
+        padding: 12px;
+        margin-bottom: 15px;
+        background-color: #f9f9f9;
+        font-weight: bold;
+    }
+    
+    .question-box {
+        margin-bottom: 20px;
+    }
+    
+    .question-text {
+        font-weight: bold;
+    }
+    
+    .option-label {
+        border-radius: 8px;
+        background: #eef2ff;
+        color: #4338ca;
+        font-weight: bold;
+        display: flex;
+        align-items: center; 
+        display: block;
+        cursor: pointer;
+        padding: 6px;
+        border-radius: 4px;
+    }
+    
+    .option-label:hover {
+        background-color: #f0f0f0;
+    }
+    
+    .correct {
+        color: green;
+        font-weight: bold;
+    }
+    
+    .wrong {
+        color: red;
+        font-weight: bold;
+    }
+    
+    button {
+        padding: 8px 16px;
+        background-color: #0078D4;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:disabled {
+        background-color: gray;
+        cursor: not-allowed;
+    }
+    
 @media (max-width: 768px) {
     html {
         font-size: 12px;

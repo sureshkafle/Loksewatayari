@@ -22,35 +22,71 @@
 
 </div> *@
 
+<section class="notice-section">
 <h2>Online Quiz</h2>
 
-<div>
-    Time Left: <span id="timer">60</span> seconds
+<div class="quiz-header">
+    ⏱ Time: <span id="timer">60</span> sec |
+    📊 Total Questions: @Model.Questions.Count |
+    ✅ Correct Answers: @Model.Score
 </div>
 
-<form method="post">
-    <p>
-        <b>Question @(Model.CurrentIndex + 1):</b>
-        @Model.Questions[Model.CurrentIndex].Text
-    </p>
+<form class="notice-card" method="post" id="quizForm">
 
-    @for (int i = 0; i < Model.Questions[Model.CurrentIndex].Options.Count; i++)
-    {
-        <input type="radio" name="SelectedAnswer" value="@i" required />
-        @Model.Questions[Model.CurrentIndex].Options[i]
-        <br />
-    }
+@for (int i = 0; i < Model.Questions.Count; i++)
+{
+    <div class="question-box">
+        <p class="question-text">
+            @(i + 1). @Model.Questions[i].Text
+        </p>
 
-    <br />
+        @for (int j = 0; j < Model.Questions[i].Options.Count; j++)
+        {
+            string cssClass = "";
+            bool isChecked = Model.UserAnswers != null &&
+                             Model.UserAnswers.Count > i &&
+                             Model.UserAnswers[i] == j;
 
-    <button type="submit" asp-page-handler="Next">
-        @(Model.CurrentIndex == Model.Questions.Count - 1 ? "Finish" : "Next")
-    </button>
+            if (Model.IsSubmitted)
+            {
+                if (j == Model.Questions[i].CorrectAnswer)
+                    cssClass = "correct";
+                else if (isChecked)
+                    cssClass = "wrong";
+            }
+
+            <label class="option-label @cssClass">
+                <input type="radio"
+                       name="UserAnswers[@i]"
+                       value="@j"
+                       @(isChecked ? "checked" : "")
+                       @(Model.IsSubmitted ? "disabled" : "")
+                       required />
+                @Model.Questions[i].Options[j]
+            </label>
+        }
+    </div>
+}
+
+<button type="submit" id="submitBtn" @(Model.IsSubmitted ? "disabled" : "")>
+    Submit Quiz
+</button>
+
 </form>
+</section>
 
 <script>
     let timeLeft = 60;
     let timer = document.getElementById("timer");
+    let form = document.getElementById("quizForm");
+    let submitted = false;
+
+    function submitQuiz() {
+        if (!submitted) {
+            submitted = true;
+            form.submit();
+        }
+    }
 
     let countdown = setInterval(function () {
         timeLeft--;
@@ -58,9 +94,12 @@
 
         if (timeLeft <= 0) {
             clearInterval(countdown);
-            document.forms[0].submit();
+            alert("Time is up! Submitting quiz...");
+            submitQuiz();
         }
     }, 1000);
+
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        submitted = true;
+    });
 </script>
-
-
