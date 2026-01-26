@@ -6,3 +6,6 @@
 
 # Create the razor page
 `dotnet new page -n Result -o Pages`
+
+dotnet new classlib -n LokFrontend.Application
+dotnet new classlib -n LokFrontend.Infrastructure
