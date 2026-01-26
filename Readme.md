@@ -3,3 +3,6 @@
 
 # Create script for current migration from root
 `dotnet ef migrations script --project QuizCore`
+
+# Create the razor page
+`dotnet new page -n Result -o Pages`
