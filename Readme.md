@@ -13,3 +13,6 @@
 
 # Added in Soluation file
 `dotnet sln add LokFrontend.Application`
+
+# Reference class libraries
+`dotnet add LokFrontend reference LokFrontend.Application`
