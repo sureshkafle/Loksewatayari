@@ -14,7 +14,7 @@ public class QuizRepository : IQuizRepository
 
     public async Task<List<QuizViewModel>> GetQuiz()
     {
-        string sql = "Select question,options, answer from categories";
+        string sql = "Select question,options, answer from quizzes";
         return await _context.LoadDataAsync<QuizViewModel>(sql);
 
     }

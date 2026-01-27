@@ -1,72 +1,47 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
+using LokFrontend.Application.Models;
+using LokFrontend.Application.Interfaces;
 
 namespace LokFrontend.Pages.QuizPage
 {
     public class PracticepageModel : PageModel
     {
-        public class Question
+        private readonly IQuizService _service;
+        public PracticepageModel(IQuizService service)
         {
-            public string Text { get; set; }
-            public List<string> Options { get; set; }
-            public int CorrectAnswer { get; set; }
+            _service=service;
         }
 
-        public List<Question> Questions { get; set; }
+        public List<QuizViewModel> Questions { get; set; }
 
         [BindProperty]
-        public List<int> UserAnswers { get; set; }
+        public List<string> UserAnswers { get; set; }
 
         public int Score { get; set; }
 
         public bool IsSubmitted { get; set; }
 
-        public void OnGet()
+        public async Task OnGetAsync()
         {
-            LoadQuestions();
+            Questions= await _service.GetQuiz();
+            System.Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(Questions));
         }
 
         public void OnPost()
         {
-            LoadQuestions();
             IsSubmitted = true;
             Score = 0;
-
+            System.Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(Questions));
             for (int i = 0; i < Questions.Count; i++)
             {
-                if (UserAnswers != null && UserAnswers[i] == Questions[i].CorrectAnswer)
+                if (UserAnswers != null && UserAnswers[i] == Questions[i].Answer)
                 {
                     Score++;
                 }
             }
         }
 
-        private void LoadQuestions()
-        {
-            Questions = new List<Question>
-            {
-                new Question {
-                    Text = "Capital of Nepal?",
-                    Options = new List<string>{ "Pokhara", "Kathmandu", "Butwal", "Biratnagar" },
-                    CorrectAnswer = 1
-                },
-                new Question {
-                    Text = "ASP.NET uses?",
-                    Options = new List<string>{ "Java", "Python", "C#", "PHP" },
-                    CorrectAnswer = 2
-                },
-                new Question {
-                    Text = "HTML stands for?",
-                    Options = new List<string>{
-                        "Hyper Text Markup Language",
-                        "High Text Machine Language",
-                        "Hyperlinks Text Mark Language",
-                        "None"
-                    },
-                    CorrectAnswer = 0
-                }
-            };
-        }
     }
 }

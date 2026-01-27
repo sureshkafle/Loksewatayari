@@ -37,19 +37,20 @@
 {
     <div class="question-box">
         <p class="question-text">
-            @(i + 1). @Model.Questions[i].Text
+            @(i + 1). @Model.Questions[i].Question
         </p>
 
-        @for (int j = 0; j < Model.Questions[i].Options.Count; j++)
+        @for (int j = 0; j < Model.Questions[i].Options.Length; j++)
         {
             string cssClass = "";
+            string currentOption = Model.Questions[i].Options[j];
             bool isChecked = Model.UserAnswers != null &&
                              Model.UserAnswers.Count > i &&
-                             Model.UserAnswers[i] == j;
+                            Model.UserAnswers[i] == currentOption;
 
             if (Model.IsSubmitted)
             {
-                if (j == Model.Questions[i].CorrectAnswer)
+                if (currentOption == Model.Questions[i].Answer)
                     cssClass = "correct";
                 else if (isChecked)
                     cssClass = "wrong";
