@@ -10,3 +10,6 @@
 # Create Class Library
 `dotnet new classlib -n LokFrontend.Application`
 `dotnet new classlib -n LokFrontend.Infrastructure`
+
+# Added in Soluation file
+`dotnet sln add LokFrontend.Application`
