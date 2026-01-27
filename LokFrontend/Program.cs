@@ -1,8 +1,16 @@
+using LokFrontend.Infrastructure.Data;
+using LokFrontend.Application.Services;
+using LokFrontend.Infrastructure.Repositories;
+using LokFrontend.Application.Interfaces;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSession();
+builder.Services.AddScoped<DapperContext>();
+builder.Services.AddScoped<ICategoryService,CategoryService>();
+builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

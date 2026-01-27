@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wA56HTA/QUI=",
+  "dgSpecHash": "kpQkZYm8dh4=",
   "success": true,
   "projectFilePath": "/Applications/Dotnet/Loksewatayari/LokFrontend/LokFrontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/Users/apple/.nuget/packages/npgsql/10.0.1/npgsql.10.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
