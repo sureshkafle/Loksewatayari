@@ -1,98 +1,81 @@
 using System.Data;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
 using Dapper;
-using Npgsql;
 using Microsoft.Extensions.Configuration;
+using Npgsql;
+
 namespace LokFrontend.Infrastructure.Data;
-
-public class PsqlDb : IDisposable
-{
-    private readonly IDbConnection _connection;
-
-    public PsqlDb(string connectionString)
-    {
-        _connection = new NpgsqlConnection(connectionString);
-    }
-
-    public IDbConnection GetConnection() => _connection;
-
-    public void Dispose()
-    {
-        _connection.Close();
-    }
-}
-
-public interface IConnectionString
-{
-    string GetConnectionString();
-    void SetConnectionString(string connectionString);
-}
-
 public class DapperContext
 {
-    protected IConnectionString _connectionString { get; }
+    private readonly IConfiguration _configuration;
+    private readonly string _connectionString;
 
-    public DapperContext(IConnectionString connectionString)
+    public DapperContext(IConfiguration configuration)
     {
-        _connectionString = connectionString;
-
+        _configuration = configuration;
+        _connectionString = _configuration.GetConnectionString("DefaultConnection");
     }
-    public async Task<List<T>> LoadData<T>(string sql)
-    {
-        using var db = GetDb();
-        using var connection = db.GetConnection();
-        //using var connection =new PsqlDb(_connectionString.GetConnectionString()).GetConnection();
 
+    // Create and open a new DB connection
+    public IDbConnection CreateConnection()
+    {
+        var connection = new NpgsqlConnection(_connectionString);
+        connection.Open();
+        return connection;
+    }
+
+    // Load list of data without parameters
+    public async Task<List<T>> LoadDataAsync<T>(string sql)
+    {
+        using var connection = CreateConnection();
         var rows = await connection.QueryAsync<T>(sql);
         return rows.ToList();
     }
 
-    public async Task<List<T>> LoadData<T, U>(string sql, U parameters)
+    // Load list of data with parameters
+    public async Task<List<T>> LoadDataAsync<T, U>(string sql, U parameters)
     {
-        using var db = GetDb();
-        using var connection = db.GetConnection();
-        //using var connection =new PsqlDb(_connectionString.GetConnectionString()).GetConnection();
-        connection.Open();
+        using var connection = CreateConnection();
         var rows = await connection.QueryAsync<T>(sql, parameters);
         return rows.ToList();
     }
 
-    public async Task<T> LoadSingleData<T, U>(string sql, U parameters)
+    // Load single row with parameters
+    public async Task<T> LoadSingleDataAsync<T, U>(string sql, U parameters)
     {
-        using var db = GetDb();
-        using var connection = db.GetConnection();
-        //using var connection =new PsqlDb(_connectionString.GetConnectionString()).GetConnection();
-        var rows = await connection.QuerySingleOrDefaultAsync<T>(sql, parameters);
-        return rows;
+        using var connection = CreateConnection();
+        var row = await connection.QuerySingleOrDefaultAsync<T>(sql, parameters);
+        return row;
     }
 
-    public Task SaveData<T>(string sql, T parameters)
+    // Save data (insert/update/delete)
+    public async Task<int> SaveDataAsync<T>(string sql, T parameters)
     {
-        //using var connection =new PsqlDb(_connectionString.GetConnectionString()).GetConnection();
-        using var db = GetDb();
-        using var connection = db.GetConnection();
-        var response = connection.ExecuteAsync(sql, parameters);
-        return response;
+        using var connection = CreateConnection();
+        var affectedRows = await connection.ExecuteAsync(sql, parameters);
+        return affectedRows;
     }
 
-    public Task<int> SaveMany<T>(string sql, List<T> parameters)
+    // Save many records in a transaction
+    public async Task<int> SaveManyAsync<T>(string sql, List<T> parameters)
     {
-        using var db = GetDb();
-        using var connection = db.GetConnection();
-        connection.Open();
-        var trans = connection.BeginTransaction();
-        var returned = connection.ExecuteAsync(sql, parameters, transaction: trans);
-        trans.Commit();
-        connection.Close();
-        return returned;
+        using var connection = CreateConnection();
+        using var transaction = connection.BeginTransaction();
+
+        var affectedRows = await connection.ExecuteAsync(sql, parameters, transaction);
+        transaction.Commit();
+
+        return affectedRows;
     }
 
-    public Task<T> GetLastInsertId<T>()
+    // Get last inserted ID (Postgres uses RETURNING, so this is optional)
+    // This is a MySQL specific example; in Postgres, use "RETURNING id" in insert queries instead
+    public async Task<T> GetLastInsertIdAsync<T>()
     {
-        return LoadSingleData<T, object>("select last_insert_id()", new { });
-    }
-
-    private PsqlDb GetDb()
-    {
-        return new PsqlDb(_connectionString.GetConnectionString());
+        using var connection = CreateConnection();
+        var lastId = await connection.QuerySingleAsync<T>("SELECT LASTVAL()");
+        return lastId;
     }
 }

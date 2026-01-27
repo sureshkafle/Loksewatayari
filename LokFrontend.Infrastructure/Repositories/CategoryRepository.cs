@@ -15,7 +15,7 @@ public class CategoryRepository : ICategoryRepository
     public async Task<List<HomeCategoryViewModel>> GetHomeCategory()
     {
         string sql = "Select title, slug, description, id, category_level from categories";
-        return await _context.LoadData<HomeCategoryViewModel>(sql);
+        return await _context.LoadDataAsync<HomeCategoryViewModel>(sql);
 
     }
 }
