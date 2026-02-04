@@ -136,3 +136,36 @@ INSERT INTO "__EFMigrationsHistory" (migration_id, product_version)
 VALUES ('20250121083322_Initial', '9.0.1');
 
 COMMIT;
+
+ALTER TABLE users RENAME COLUMN full_name TO last_name;
+
+ALTER TABLE users ADD active_status integer NOT NULL DEFAULT 0;
+
+ALTER TABLE users ADD created_date timestamp with time zone NOT NULL DEFAULT TIMESTAMPTZ '-infinity';
+
+ALTER TABLE users ADD date_of_birth timestamp with time zone NOT NULL DEFAULT TIMESTAMPTZ '-infinity';
+
+ALTER TABLE users ADD first_name text NOT NULL DEFAULT '';
+
+ALTER TABLE users ADD middle_name text;
+
+ALTER TABLE users ADD updated_date timestamp with time zone NOT NULL DEFAULT TIMESTAMPTZ '-infinity';
+
+CREATE TABLE notices (
+    id uuid NOT NULL,
+    title text NOT NULL,
+    file text[] NOT NULL,
+    description text NOT NULL,
+    attachment_url text,
+    active_status integer NOT NULL,
+    created_date timestamp with time zone NOT NULL,
+    updated_date timestamp with time zone NOT NULL,
+    expiry_at timestamp with time zone NOT NULL,
+    publish_date timestamp with time zone NOT NULL,
+    CONSTRAINT pk_notices PRIMARY KEY (id)
+);
+
+INSERT INTO "__EFMigrationsHistory" (migration_id, product_version)
+VALUES ('20260204150419_AddNotice', '9.0.1');
+
+COMMIT;

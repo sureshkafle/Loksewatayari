@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20d0261a4e07beab2eb43152b6206a59242bb3a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+219580f2671e710138796804b4346f6ba310b5b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
