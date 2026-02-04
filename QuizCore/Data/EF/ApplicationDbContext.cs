@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using QuizCore.Data.Identities;
 using QuizCore.Modules.Categories.Entities;
 using QuizCore.Modules.Quizzes.Entities;
+using QuizCore.Modules.Notices.Entities;
 
 namespace QuizCore.Data.EF;
 
@@ -18,10 +19,12 @@ public partial class ApplicationDbContext : IdentityDbContext<ApplicationUser, I
         Categories = Set<Category>();
         CategoryRelations= Set<CategoryRelation>();
         Quizzes= Set<Quiz>();
+        Notices= Set<Notice>();
     }
     public DbSet<Category> Categories { get; set; }
     public DbSet<CategoryRelation> CategoryRelations {get;set;}
     public DbSet<Quiz> Quizzes {get; set;}
+    public DbSet<Notice> Notices {get;set;}
    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
