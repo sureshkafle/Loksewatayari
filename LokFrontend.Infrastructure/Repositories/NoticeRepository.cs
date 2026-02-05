@@ -12,7 +12,7 @@ public class NoticeRepository :INoticeRepository
      }
      public async Task<List<NoticeViewModel>> GetNotices()
      {
-          var sql ="select title , description, publish_date from notices";
+          var sql ="select id, title , description, publish_date from notices";
           return await _context.LoadDataAsync<NoticeViewModel>(sql);
      }
 
