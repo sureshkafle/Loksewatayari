@@ -12,6 +12,8 @@ builder.Services.AddScoped<ICategoryService,CategoryService>();
 builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
 builder.Services.AddScoped<IQuizService,QuizService>();
 builder.Services.AddScoped<IQuizRepository,QuizRepository>();
+builder.Services.AddScoped<INoticeService,NoticeService>();
+builder.Services.AddScoped<INoticeRepository,NoticeRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
