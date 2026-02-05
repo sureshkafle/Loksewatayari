@@ -26,7 +26,6 @@ namespace LokFrontend.Pages.QuizPage
         public async Task OnGetAsync()
         {
             Questions= await _service.GetQuiz();
-            System.Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(Questions));
         }
 
         public void OnPost()

@@ -1,31 +1,29 @@
-﻿@page "/notice-detail/{id:int}"
-@model MyApp.Namespace.Notice_detailModel
-@{
-    int id = Convert.ToInt32(RouteData.Values["id"]);
-    string title = "";
-    string date = "";
-    string content = "";
-
-    // You can later fetch this from a database or API
-    if (id == 1)
-    {
-        title = "Loksewa Exam Schedule 2082";
-        date = "Published: 2079/12/15";
-        content = "The Loksewa Aayog has released the official schedule for various technical and non-technical positions. Exams begin from 2082 Baisakh 15. Candidates are advised to download their admit cards and verify exam centers. Visit the official site for more details.";
-    }
-    else if (id == 2)
-    {
-        title = "Scholarship Application Notice";
-        date = "Published: 2082/01/10";
-        content = "The Ministry of Education has announced scholarships for deserving students in different streams. The online application portal will be open until 2082 Jestha 5. Applicants must upload required documents such as citizenship, academic transcripts, and recommendation letters.";
-    }
-}
+﻿@page "/notice-detail/{id}"
+@model LokFrontend.Pages.NoticeDetail.Notice_detailModel
 
 <section class="notice-detail-section">
   <div class="notice-detail-container">
-    <h2>@title</h2>
-    <p class="notice-detail-date">@date</p>
-    <p class="notice-detail-content">@content</p>
+    <h2>@Model.Notice.Title</h2>
+    <p class="notice-detail-date">@Model.Notice.PublishDate</p>
+    <p class="notice-detail-content">@Model.Notice.Description</p>
+    <a href="@Model.Notice.AttachmentUrl" target="_blank">@Model.Notice.AttachmentUrl</a>
+    @foreach (var item in Model.Notice.File)  // files is List<string> or string[]
+    {
+        var ext = System.IO.Path.GetExtension(item).ToLower();
+
+        if (ext == ".jpg" || ext == ".jpeg" || ext == ".png" || ext == ".gif")
+        {
+            <img src="@item" alt="Image" style="max-width:200px; max-height:200px;" />
+        }
+        else if (ext == ".pdf")
+        {
+            <a href="@item" download>Download PDF</a>
+        }
+        else
+        {
+            <span>Unsupported file type: @item</span>
+        }
+    }
     <a href="/notices" class="back-btn">← Back to Notices</a>
   </div>
 </section>

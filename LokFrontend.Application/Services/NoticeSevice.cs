@@ -14,6 +14,8 @@ public class NoticeService : INoticeService
      }
      public async Task<NoticeDetailViewModel> GetNoticeById(Guid id)
      {
-          return await _repo.GetNoticeById(id);
+          var notice= await _repo.GetNoticeById(id);
+          System.Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(notice));
+          return notice;
      }
 }
