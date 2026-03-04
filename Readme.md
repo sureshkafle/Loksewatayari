@@ -16,3 +16,6 @@
 
 # Reference class libraries
 `dotnet add LokFrontend reference LokFrontend.Application`
+
+# Create Blazor APP
+`dotnet new blazorwasm -o MyBlazorApp`
